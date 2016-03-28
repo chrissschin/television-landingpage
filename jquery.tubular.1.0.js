@@ -16,9 +16,9 @@
 
     // defaults
     var defaults = {
-        ratio: 16/9, // usually either 4/3 or 16/9 -- tweak as needed
+        ratio: 1/1, // usually either 4/3 or 16/9 -- tweak as needed
         videoId: 'p-Bwd0Y48m4', // toy robot in space is a good default, no?
-        mute: true,
+        mute: false,
         repeat: true,
         width: $(window).width(),
         wrapperZIndex: 99,
