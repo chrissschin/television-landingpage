@@ -2,5 +2,10 @@ body {
   background-color: black;
   color: white; }
 
-.main-section .row .col-md-6 {
-  text-align: center; }
+.main-section {
+  padding-top: 100px; }
+  .main-section .row .col-md-6 {
+    text-align: center; }
+
+.product {
+  margin-bottom: 125px; }
