@@ -17,3 +17,9 @@ body {
 .product {
 	margin-bottom: 125px;
 }
+
+@media(max-width: 479px) {
+	body {
+		background: url(../images/picture.jpg);
+	}
+}
