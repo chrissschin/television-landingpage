@@ -1,11 +1,18 @@
-"use strict"
+"use strict";
 
 $(document).ready(function(){
-	var defaults = {
+	var options = {
 		videoID: 'p-Bwd0Y48m4',
 		start: 0,
 		repeat: true,
 	};
 
-	$("#wrapper").tubular(defaults);
+	if ($(window).width() < 479) {
+		console.log($(window).width());
+	}
+	else {
+		console.log("bigger");
+		$("#wrapper").tubular(options);
+	}
+
 });
