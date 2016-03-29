@@ -4,11 +4,10 @@ body {
 
 .main-section {
   padding-top: 100px; }
-  .main-section .row .col-md-6 {
-    text-align: center; }
 
 .product {
-  margin-bottom: 125px; }
+  margin-bottom: 125px;
+  text-align: center; }
 
 @media (max-width: 479px) {
   body {
