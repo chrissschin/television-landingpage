@@ -10,7 +10,7 @@ body {
   text-align: center; }
 
 @media (max-width: 479px) {
-  body:before {
+  body {
     content: "";
     display: block;
     position: fixed;
