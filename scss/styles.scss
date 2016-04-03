@@ -15,7 +15,7 @@ body {
 }
 
 @media(max-width: 479px) {
-	body {
+	body:before {
 	  content: "";
 	  display: block;
 	  position: fixed;
